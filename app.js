@@ -1,3 +1,4 @@
+alert("Уважаемый проверяющий! Я по ошибке засабмитил ссылку на деплой задания а не на PR. Вот актуальная ссылка на PR - https://github.com/drumwarz/clean-code-s1e1/pull/1 - заранее благодарю за проверку")
 //Document is the DOM can be accessed in the console with document.window.
 // Tree is from the top, html, body, p etc.
 
