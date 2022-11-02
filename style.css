@@ -4,15 +4,18 @@
     color: #333;
     font-family: Lato, sans-serif;
   }
+
   .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
   }
+
   .header__image {
     width: 100%;
   }
+
   .header__link {
     font-family: fantasy, cursive;
   }
@@ -38,13 +41,16 @@
     display: inline-block;
     flex-grow: 1;
   }
+
   .section-add__task-wrapper {
     display: flex;
   }
+
   .task-list {
     margin: 0;
     padding: 0px;
   }
+
   .task-list__item {
     list-style: none;
   }
@@ -54,6 +60,7 @@
   .btn{
     outline: none;
   }
+
   .btn {
     background: none;
     border: 0px;
@@ -63,20 +70,24 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
   }
+
   .btn:hover {
     color: #3a3a3a;
   }
+
   /* Heading */
-  .task-header,
-  .section-add__label {
+  .task-header, 
+  .section-add__label,
+  .section-header {
+    display: block;
     color: #333;
     font-weight: 700;
     font-size: 15px;
     border-bottom: 2px solid #333;
     padding: 30px 0 10px;
-    margin: 0;
+    margin-bottom: 20px;
     text-transform: uppercase;
-  }
+}
   
   .section-add__input,
   .todo-item__input {
@@ -91,6 +102,7 @@
     font-family: Lato, sans-serif;
     color: #888;
   }
+
   .todo-item__input:focus {
     color: #333;
   }
@@ -100,6 +112,7 @@
     display: block;
     margin: 0 0 20px;
   }
+
   .section-add__input {
     width: 318px;
   }
@@ -132,11 +145,13 @@
   .todo-item__input {
     width: 226px;
   }
+
   .btn__image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
+  
   .btn__image:hover {
     transform: rotateZ(0);
   }
